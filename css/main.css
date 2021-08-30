@@ -122,6 +122,8 @@
     transform: scale(1.15); }
 
 @media (max-width: 768px) {
+  .main__servicios {
+    padding: 1rem; }
   .main__proyectos {
     display: flex;
     flex-direction: column;
@@ -132,7 +134,9 @@
       justify-content: space-between;
       width: 70%;
       margin: 1rem;
-      transition: all .7s ease; } }
+      transition: all .7s ease; }
+  .carousel, .carousel-inner {
+    height: 45vh; } }
 
 .main__contact {
   background-color: #4D4F5C; }

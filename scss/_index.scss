@@ -24,21 +24,21 @@
     .texto1 {
         color: $color-white;
         text-align: justify;
-        padding-top: 0.5rem*2;
+        padding-top: 1rem;
         font-size: 2vw;
     }
 
     .texto2 {
         color: $color-pastel;
         text-align: justify;
-        padding-top: 0.5rem*2;
+        padding-top: 1rem;
         font-size: 2vw;
     }
 
     .texto3 {
         color: $color-white;
         text-align: justify;
-        padding-top: 0.5rem*2;
+        padding-top: 1rem;
         font-size: 2vw;
     }
 
@@ -53,7 +53,7 @@
         img {
             justify-content: space-between;
             width: 30%;
-            margin: 0.5rem*2;
+            margin: 1rem;
             transition:all .7s ease;
         }
 
@@ -65,6 +65,11 @@
 }
 
 @media (max-width: 768px) {
+
+    .main__servicios{
+        padding: 1rem
+    }
+
 
     .main__proyectos{
         display: flex;
