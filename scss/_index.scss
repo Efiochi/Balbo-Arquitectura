@@ -1,0 +1,87 @@
+.main {
+    &__presentacion{
+        .carousel-inner{
+            height: 75vh;
+        }
+        .carousel-item{
+            height: 75vh;
+        }
+    }
+
+    &__servicios {
+        background-color: $color-dark;
+        padding: 3rem;
+    }
+    .row {
+        padding: 1rem;
+    }
+    .col {
+        align-items: center;
+    }
+    img {
+        width: 10rem+10rem;
+    }
+    .texto1 {
+        color: $color-white;
+        text-align: justify;
+        padding-top: 0.5rem*2;
+        font-size: 2vw;
+    }
+
+    .texto2 {
+        color: $color-pastel;
+        text-align: justify;
+        padding-top: 0.5rem*2;
+        font-size: 2vw;
+    }
+
+    .texto3 {
+        color: $color-white;
+        text-align: justify;
+        padding-top: 0.5rem*2;
+        font-size: 2vw;
+    }
+
+    &__proyectos {
+        background-color: $color-grey;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        img {
+            justify-content: space-between;
+            width: 30%;
+            margin: 0.5rem*2;
+            transition:all .7s ease;
+        }
+
+        img:hover {
+            transform:scale(1.15);
+        }
+    }
+        
+}
+
+@media (max-width: 768px) {
+
+    .main__proyectos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+
+        img {
+            justify-content: space-between;
+            width: 70%;
+            margin: 0.5rem*2;
+            transition:all .7s ease;
+        }
+    }
+
+    .carousel , .carousel-inner{
+        height: 45vh;
+    }
+}

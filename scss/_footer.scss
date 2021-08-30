@@ -1,0 +1,85 @@
+.footer {
+    @include flexf ();
+    padding: 1rem;
+    background-color: $color-dark;
+    color: $color-white;
+    line-height: 1.5;
+
+    a{
+        text-decoration: none;
+        color: $color-pastel;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: $color-resalt;
+    }
+    
+    .ft__titulo {
+        color: $color-titulos;
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
+
+    .ft__main {
+        padding: 1.25rem 1.875rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .ft__main-item {
+            padding: 1.25rem;
+            min-width: 12.5rem ;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input[type="email"] {
+        border: 0;
+        padding: 0.625rem;
+        margin-top: 0.3125rem;
+    }
+
+    input[type="submit"] {
+        background-color: $color-resalt;
+        color: $color-white;
+        cursor: pointer;
+        border: 0;
+        padding: 0.625rem 0.9375rem;
+        margin-top: 0.3125rem;
+    }
+
+    .ft__social {
+        padding: 0 1.875rem 1.25rem;
+    }
+    .ft__social_list {
+        display: flex;
+        justify-content: center;
+        border-top: 1px #777 solid; 
+        padding-top: 1.25rem;
+
+        li {
+        margin: 0.5rem;
+        font-size: 1.25rem;
+        }
+    }
+
+    .ft__legal {
+        padding: 1vh;
+        background-color: $color-grey;
+        font-size: 1rem;
+    }
+    .ft__legal_list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+            margin: 0.1rem 0.5rem;
+            white-space: nowrap;
+        }
+    }
+}

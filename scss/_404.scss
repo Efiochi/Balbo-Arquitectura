@@ -1,0 +1,33 @@
+.body__404 {
+    background-color: $color-dark;
+}
+
+.main__404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+
+    picture{
+        
+        img{
+            width: 50vh;
+            padding-top: 5rem;
+        }
+    }
+
+    h1 {
+        color: $color-white;
+        font-size: 5vw;
+    }
+
+    h2 {
+        color: $color-pastel;
+        font-size: 3vw;
+    }
+
+    p {
+        color: $color-softgrey;
+        font-size: 2vw;
+    }
+}

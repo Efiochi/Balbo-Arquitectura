@@ -1,0 +1,33 @@
+$SpacesSizes: (
+  0: 0rem,
+  1: 1rem,
+  2: 2rem,
+);
+
+$PaddingsType: (
+  pa: padding,
+  pt: padding-top
+);
+
+@each $classType, $type in $PaddingsType {
+    @each $classSize, $size in $SpacesSizes {
+      .#{$classType}-#{$classSize} {
+        #{$type}: #{$size};
+      }
+    }
+  }
+
+.main__equipo {
+    background-color: $color-dark;
+    p {
+        color: $color-white;
+        text-align: justify;
+        padding-top: 0.5rem*2;
+        font-size: 1.5vw; 
+        text-align: justify;   
+    }
+
+    img {
+        width: 30rem;
+    }
+}
