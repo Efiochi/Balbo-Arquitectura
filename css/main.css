@@ -69,9 +69,6 @@
       margin: 0.1rem 0.5rem;
       white-space: nowrap; }
 
-.navbar-collapse {
-  text-align: center; }
-
 .main__presentacion .carousel-inner {
   height: 75vh; }
 
@@ -93,20 +90,20 @@
 
 .main .texto1 {
   color: #ffffff;
-  text-align: justify;
-  padding-top: 1rem;
+  text-align: center;
+  padding-top: 1.5rem;
   font-size: 2.7vw; }
 
 .main .texto2 {
   color: #ffffff;
-  text-align: justify;
+  text-align: center;
   padding-top: 1rem;
   font-size: 2.6vw; }
 
 .main .texto3 {
   color: #ffffff;
-  text-align: justify;
-  padding-top: 1rem;
+  text-align: center;
+  padding-top: 1.5rem;
   font-size: 2.6vw; }
 
 .main__proyectos {
@@ -123,6 +120,11 @@
     transition: all .7s ease; }
   .main__proyectos img:hover {
     transform: scale(1.15) !important; }
+
+.main .carousel-caption p {
+  font-size: x-large;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #4D4F5C; }
 
 @media (max-width: 768px) {
   .texto1 {
@@ -252,11 +254,22 @@
   .main__equipo p {
     color: #ffffff;
     text-align: justify;
-    margin: 15px;
-    font-size: 2.1vw;
+    margin: auto;
+    margin-top: 1.2em;
+    font-size: 30px;
     text-align: justify; }
   .main__equipo .img-fluid {
-    margin: 15px; }
+    margin: auto;
+    margin-top: 2em; }
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; }
+  .col img {
+    height: 100%;
+    margin: auto; }
+  .col p {
+    font-size: 5vw; } }
 
 .body__404 {
   background-color: #050505; }
