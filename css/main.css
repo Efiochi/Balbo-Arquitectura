@@ -122,9 +122,9 @@
     transform: scale(1.15) !important; }
 
 .main .carousel-caption p {
-  font-size: x-large;
-  color: #ffffff;
-  text-shadow: 2px 2px 2px #4D4F5C; }
+  font-size: x-large !important;
+  color: #ffffff !important;
+  text-shadow: 2px 2px 2px #4D4F5C !important; }
 
 @media (max-width: 768px) {
   .texto1 {
@@ -264,12 +264,12 @@
 
 @media (max-width: 768px) {
   .row {
-    flex-direction: column; }
+    flex-direction: column !important; }
   .col img {
-    height: 100%;
-    margin: auto; }
+    height: 100% !important;
+    margin: auto !important; }
   .col p {
-    font-size: 5vw; } }
+    font-size: 5vw !important; } }
 
 .body__404 {
   background-color: #050505; }
