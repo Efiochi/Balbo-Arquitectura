@@ -37,17 +37,17 @@ $PaddingsType: (
 
   @media (max-width: 768px) {
     .row {
-      flex-direction: column !important;
+      flex-direction: column ;
     }
 
     .col {
       img {
-        height: 100% !important;
-        margin: auto !important;
+        height: 100% ;
+        margin: auto ;
       }
 
       p {
-        font-size: 5vw !important;
+        font-size: 5vw;
       }
     }
   }

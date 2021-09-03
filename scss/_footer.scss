@@ -83,3 +83,17 @@
         }
     }
 }
+
+
+@media (max-width: 768px) {
+    
+    .ft__legal_list{
+        p {
+            display: none;
+        }
+    }
+
+    ::placeholder {
+        font-size: 2vh;
+    }
+}
