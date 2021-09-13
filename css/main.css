@@ -40,8 +40,12 @@
     border: 0;
     padding: 0.625rem;
     margin-top: 0.3125rem;
+<<<<<<< HEAD
     margin-right: 0.5rem;
     border-radius: 2px; }
+=======
+    background-color: #d4d4d4; }
+>>>>>>> 01154674d4c36b727b7f630271bdd2092ef14ace
   .footer input[type="submit"] {
     background-color: #5b68c0;
     color: #ffffff;
@@ -78,11 +82,12 @@
   ::placeholder {
     font-size: 2vh; } }
 
-.main__presentacion .carousel-inner {
-  height: 75vh; }
-
-.main__presentacion .carousel-item {
-  height: 75vh; }
+.main__presentacion {
+  background-color: #050505; }
+  .main__presentacion .carousel-inner {
+    height: 75vh; }
+  .main__presentacion .carousel-item {
+    height: 75vh; }
 
 .main__servicios {
   background-color: #050505;
@@ -165,7 +170,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 100px; }
+    padding: 20px 10px; }
   .main__contact .col {
     padding: 1rem;
     display: flex;

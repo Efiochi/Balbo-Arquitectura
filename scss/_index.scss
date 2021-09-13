@@ -1,5 +1,7 @@
 .main {
     &__presentacion{
+        background-color: $color-dark;
+
         .carousel-inner{
             height: 75vh;
         }
