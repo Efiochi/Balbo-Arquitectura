@@ -39,14 +39,17 @@
   .footer input[type="email"] {
     border: 0;
     padding: 0.625rem;
-    margin-top: 0.3125rem; }
+    margin-top: 0.3125rem;
+    margin-right: 0.5rem;
+    border-radius: 2px; }
   .footer input[type="submit"] {
     background-color: #5b68c0;
     color: #ffffff;
     cursor: pointer;
     border: 0;
     padding: 0.625rem 0.9375rem;
-    margin-top: 0.3125rem; }
+    margin-top: 0.3125rem;
+    border-radius: 8px; }
   .footer .ft__social {
     padding: 0 1.875rem 1.25rem; }
   .footer .ft__social_list {
@@ -240,6 +243,8 @@
 @media (max-width: 768px) {
   .container {
     flex-direction: column; }
+    .container .left {
+      display: none; }
   iframe {
     display: none; } }
 
